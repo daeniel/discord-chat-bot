@@ -1,0 +1,66 @@
+ALWAYS_GPT4: true
+# Set this to true if you want to always use GPT4 for response
+
+INTERNET_ACCESS: false
+# Set to true to enable internet access
+
+MAX_SEARCH_RESULTS: 2
+# Set the maximum search results
+
+ALLOW_DM: false
+# Set to true to allow direct messages
+
+SMART_MENTION: true
+# Set to true to enable smart mention feature
+
+MAX_HISTORY: 15
+# Set the maximum message history
+
+TRIGGER:
+  - chatbot
+  - bot nickname
+  - bot alias
+  - bot name
+  - Other bot alias...
+# Define the triggers that the bot should always respond to when in message
+
+LANGUAGE: en
+# Specify the language code (check 'lang' folder for valid codes)
+
+INSTRUCTIONS: assist
+# Specify the instruction prompt to use (check 'instruction' folder for valid prompts)
+# To add custom prompts, create a .txt file like 'custom.txt' and set INSTRUCTIONS as 'custom'
+
+PRESENCES_CHANGE_DELAY: 60
+# Please note that the Presences Change Delay is measured in seconds. It is advisable not to set it too low, as doing so may result in your bot being rate-limited by Discord
+
+PRESENCES:
+  - Coded by Mishal#1916
+  - How can I assist you?
+  - Currently in {guild_count} guilds
+  - Minecraft
+  - Multiplayer madness
+  - Exploring the vast virtual universe
+  - Assisting users like you
+  - Crafting virtual wonders
+  - Optimizing processes for efficiency
+  - Unraveling the mysteries of AI
+# List of different presences to be used
+
+OCR_MODEL_URLS:
+  - "https://api-inference.huggingface.co/models/microsoft/trocr-base-printed"
+  - "https://api-inference.huggingface.co/models/nlpconnect/vit-gpt2-image-captioning"
+# List of URLs for OCR models
+
+BLACKLIST_WORDS:
+  - naked
+  - loli
+  - hentai
+  - explicit
+  - pornography
+  - adult
+  - XXX
+  - sex
+  - erotic
+  
+# Blacklisted words for /Imagine command
